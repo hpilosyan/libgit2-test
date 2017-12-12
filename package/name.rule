@@ -1,0 +1,2 @@
+WHEN envelope:type == 'invoice';
+wHeN omega:x.y.z <= 2;
