@@ -2,7 +2,7 @@
   "rules" : {
     // we assume this corresponds to a rule file in this directory
     // called 'foo.rule'
-    "foo"    : {
+    "name"    : {
       // a specifically generated identifier documented in the
       // entity id section
       "id" :      "RLcs303f",
