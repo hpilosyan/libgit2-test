@@ -1,0 +1,59 @@
+{
+  "rules" : {
+    // we assume this corresponds to a rule file in this directory
+    // called 'foo.rule'
+    "foo"    : {
+      // a specifically generated identifier documented in the
+      // entity id section
+      "id" :      "RLcs303f",
+      // version of this rule (http://semver.org)
+      "version"   : "1.2.33",
+      // ISO-8601 datetimes for when this rule should be applied
+      // these require UTC offsets (see effective section)
+      "effective" : [
+        // timezone: tz style or abbrev
+        { "timezone", "AST", "starts" : "2007-04-05T12:30", "ends" : "2008-04-05T12:30" }
+      ],
+      "jurisdiction" : {
+        // ISO 3166-1 (alpha2, alpha3 or numeric)
+        "country" : "CA",
+        // ISO 3166-2 - must be valid in the country
+        "region"  : "QC"
+      },
+      // specific XA requirements (see section on XA requirements)
+      "xa" : {
+        "version", "1.2.33"
+      },
+      // (see section on criticality)
+      "criticality" : "high",
+      // canonical URL where the source of the this rule/table is retained
+      // if missing, generated from the repo URL
+      "url" : "",
+      // see section on roles
+      "roles" {
+        "manager" : {
+          "name"  : "",
+          "email" : "",
+          "url"   : ""
+        },
+        "author" : {
+          "name"  : "",
+          "email" : "",
+          "url"   : ""
+        }
+        // generated from repository metadata, reproduced here for
+        // clarity based on the roles section
+        "committer" : {
+          "name"  : "",
+          "email" : "",
+          "url"   : ""
+        }
+      }
+    }
+  },
+  "tables" : {
+    "foo" : {
+      
+    }
+  }
+}
