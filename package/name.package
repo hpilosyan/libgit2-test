@@ -11,11 +11,11 @@
         "region"  : "QC"
       },
       "xa" : {
-        "version", "1.2.33"
+        "version": "1.2.33"
       },
       "criticality" : "high",
       "url" : "",
-      "roles" {
+      "roles": {
         "manager" : {
           "name"  : "",
           "email" : "",
