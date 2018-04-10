@@ -3,10 +3,12 @@
     "sample" : {
       "version" : "0.0.1",
       "effective" : [
-        { "timezone" : "AST", "starts" : "2017-12-29T00:00", "ends" : "2018-12-29T23:59" }
+        { "timezone" : "Asia/Yerevan", "starts" : "2018-01-22T00:00", "ends" : "2018-07-22T23:59" }
       ],
+      "party": "customer",
       "jurisdiction" : {
-        "country" : "AM"
+        "country" : "AM",
+        "region": "Yerevan"
       },
       "xa" : {
         "version" : "0.0.2"
