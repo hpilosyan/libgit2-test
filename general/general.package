@@ -1,7 +1,7 @@
 {
   "rules" : {
     "sample" : {
-      "version" : "0.0.2",
+      "version" : "0.0.1",
       "effective" : [
         { "timezone" : "Asia/Yerevan", "starts" : "2018-01-22T00:00", "ends" : "2018-07-22T23:59" }
       ],
